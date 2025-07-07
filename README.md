@@ -1,1 +1,2 @@
-# Example-Query
+//Request
+curl -H "content-type: application/json" -X POST --data '{"id":0,"jsonrpc":"2.0","method":"eth_getLogs","params":[{"address":"0xc78Be425090Dbd437532594D12267C5934Cc6c6f","paging_options":{"logIndex":"3D","blockNumber":"6423AC"},"fromBlock":"earliest","toBlock":"latest","topics":["0xddf252ad1be2c89b69c2b068fc378daa952ba7f163c4a11628f55a4df523b3ef"]}]}' https://eth.blockscout.com/api/eth-rpc
